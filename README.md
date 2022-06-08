@@ -2,7 +2,7 @@
 Automated 3-field labels generator with QR and barcode for every field<br>
 
 ## About the project
-This project was created for a specific use in the network equipment warehouse. Main purpose was to make the process of labelization of devices quicker. Every piece of equipment needed it's id (Numer Seryjny), description (Opis) and warehouse id (Skład). Application can generate multiple ready-to-print A4 sheets filled with generated labels.<br>
+That is an older project, that was created for a specific use in the network equipment warehouse. Main purpose was to make the process of labelization of devices quicker. Every piece of equipment needed it's id (Numer Seryjny), description (Opis) and warehouse id (Skład). Application can generate multiple ready-to-print A4 sheets filled with generated labels.<br>
 GUI provided by Kivy is is responsive and scalable. Preview of the output sheets is available all the time during the creation process. 
 ## Features
 - Importing data from a spreadsheet
