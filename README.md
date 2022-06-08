@@ -13,6 +13,7 @@ GUI provided by Kivy is is responsive and scalable. Preview of the output sheets
 - Direct print from app
 
 ## Examples
+Exported sample .pdf and .xlsx spreadsheet available in ./examples.
 ### Manual input
 ![manual input example gif](https://github.com/arseem/QuickLabel/blob/master/example/example-manual-input.gif "Manual input example")
 
@@ -28,6 +29,19 @@ GUI provided by Kivy is is responsive and scalable. Preview of the output sheets
   - Pandas (spreadsheets handling)
   - PIL (image manipulation)
   - QR and barcode
+
+## Usage
+- TAB goes to the next field
+- Enter goes to the next field and (when all fields are filled) adds a label to the sheet
+- Scanner mode
+  - LOCK lets you block any field, so that it doesn't clear itself after submitting a label
+  - Defaultly all unlocked fields are cleared after adding a label to sheet
+- Spreadsheet import/export
+  - Application reads first three columns of the spreadsheet and creates labels row by row.
+  - Exported spreadsheet uses the same format
+- 'WYCZYŚĆ' clears current sheets
+- 'COFNIJ OSTATNI' deletes the last added label
+- Navigate through sheets with arrows on the left and right of the preview
 ## Requirements
 
 <details>
@@ -68,7 +82,7 @@ GUI provided by Kivy is is responsive and scalable. Preview of the output sheets
   </ul>
 </details>
 
-## How to use
+## How to install
 - Make sure you have Python and venv library installed and added to PATH
 ### Windows
 - Run setup.ps1
