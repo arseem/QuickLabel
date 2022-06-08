@@ -2,24 +2,32 @@
 Automated 3-field labels generator with QR and barcode for every field<br>
 
 ## About the project
-This project was created for a specific use in the network equipment warehouse. Main purpose was to make the process of labelization devices quicker. Every piece of equipment needed it's name (Nazwa), description (Opis) and warehouse number (Skład). Application can generate multiple ready to print A4 sheets with generated labels. Required features were:
-- importing data from a spreadsheet
-- manual element adding
-- adding elements using HID barcode scanner
-- exporting printable sheet to pdf
-- exporting collected data to Excel spreadsheet
-- direct print from app
+This project was created for a specific use in the network equipment warehouse. Main purpose was to make the process of labelization of devices quicker. Every piece of equipment needed it's id (Numer Seryjny), description (Opis) and warehouse id (Skład). Application can generate multiple ready-to-print A4 sheets filled with generated labels.<br>
+GUI provided by Kivy is is responsive and scalable. Preview of the output sheets is available all the time during the creation process. 
+## Features
+- Importing data from a spreadsheet
+- Manual data input
+- Adding elements using HID barcode scanner
+- Exporting collected data to spreadsheet
+- Exporting sheets with labels to pdf
+- Direct print from app
 
 ## Examples
-foobar
+### Manual input
+![manual input example gif](https://github.com/arseem/3OSCx1F/blob/master/example/Signal%20sum%20example.gif "Manual input example")
+
+### Spreadsheet import
+![spreadsheet import example gif](https://github.com/arseem/3OSCx1F/blob/master/example/Filters%20example.gif "Spreadsheet import example")
+
+### Scanner mode
+![scanner mode example gif](https://github.com/arseem/3OSCx1F/blob/master/example/Filters%20example.gif "Scanner mode example")
 
 ## Technologies in use
 - Python
-  - Kivy
-  - Excel data retrieving
-  - PIL image manipulation
-  - QR and barcode generation
-  - Exporting data to excel/pdf
+  - Kivy (GUI)
+  - Pandas (spreadsheets handling)
+  - PIL (image manipulation)
+  - QR and barcode
 ## Requirements
 
 <details>
