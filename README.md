@@ -14,13 +14,13 @@ GUI provided by Kivy is is responsive and scalable. Preview of the output sheets
 
 ## Examples
 Exported sample .pdf and .xlsx spreadsheet available in ./examples.
-### Manual input
+- ### Manual input
 ![manual input example gif](https://github.com/arseem/QuickLabel/blob/master/example/example-manual-input.gif "Manual input example")
 
-### Spreadsheet import
+- ### Spreadsheet import
 ![spreadsheet import example gif](https://github.com/arseem/QuickLabel/blob/master/example/example-spreadsheet-import.gif "Spreadsheet import example")
 
-### Scanner mode
+- ### Scanner mode
 ![scanner mode example gif](https://github.com/arseem/QuickLabel/blob/master/example/example-scanner-mode.gif "Scanner mode example")
 
 ## Technologies in use
