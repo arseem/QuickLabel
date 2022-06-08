@@ -521,19 +521,19 @@ class MyGrid(Widget):
         bar_img_org = bar.render(writer_options = {'font_path':fm.findfont(fm.FontProperties(family='arial'))})
         k = bar_img_org.height/bar_img_org.width
         bar_img1 = bar_img_org.resize((2480//2-500, 472//5), PIL.Image.ANTIALIAS)
-        bar_img1 = bar_img1.crop((0,0,2480//2-500,472//6))
+        bar_img1 = bar_img1.crop((0,0,2480//2-500,472//7))
 
         bar = barcode.get('CODE128', f'{opis_clear}', writer = ImageWriter())
         bar_img_org = bar.render(writer_options = {'font_path':fm.findfont(fm.FontProperties(family='arial'))})
         k = bar_img_org.height/bar_img_org.width
         bar_img2 = bar_img_org.resize((2480//2-500, 472//5), PIL.Image.ANTIALIAS)
-        bar_img2 = bar_img2.crop((0,0,2480//2-500,472//6))
+        bar_img2 = bar_img2.crop((0,0,2480//2-500,472//7))
 
         bar = barcode.get('CODE128', f'{sklad_clear}', writer = ImageWriter())
         bar_img_org = bar.render(writer_options = {'font_path':fm.findfont(fm.FontProperties(family='arial'))})
         k = bar_img_org.height/bar_img_org.width
         bar_img3 = bar_img_org.resize((2480//2-500, 472//5), PIL.Image.ANTIALIAS)
-        bar_img3 = bar_img3.crop((0,0,2480//2-500,472//6))
+        bar_img3 = bar_img3.crop((0,0,2480//2-500,472//7))
 
 
         #fin_display = fin.resize((fin.width, fin.height), PIL.Image.ANTIALIAS)
